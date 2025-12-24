@@ -3,6 +3,7 @@
     import { onMount } from "svelte";
 	import { page } from "$app/state";
     import { goto } from "$app/navigation";
+	import '../app.css'
 
 
 	let { children } = $props();

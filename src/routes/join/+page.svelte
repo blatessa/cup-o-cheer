@@ -1,7 +1,6 @@
 <script>
   import { goto } from "$app/navigation";
   import { supabase } from "$lib/supabase";
-  import Error from "../../components/error.svelte";
 
   // steps: join flow ("code" -> "join_name") or create flow ("create")
   let steps = "code"; // "code" | "join_name" | "create"
